@@ -1,0 +1,27 @@
+@use '../utils/variables' as v;
+
+.news{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+    justify-content: space-between ;
+
+    .subcontainer{
+        display: flex;
+        gap: 0.5rem;
+        h3{
+            font-weight: bolder;
+        }
+        .number{
+            color: white;
+            background-color: darkblue;
+            padding: 3px 10px;
+            border-radius: 5px;
+        }
+    }
+    p{
+        color: v.$theme-coment-color;
+    }
+}
+

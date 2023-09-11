@@ -1,0 +1,126 @@
+/* Devices */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+  background-color: white;
+  margin: 15rem auto;
+  width: 50%;
+  padding: 1rem;
+  box-shadow: 0px 6px 49px 3px rgb(135, 128, 135);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.news {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.news .subcontainer {
+  display: flex;
+  gap: 0.5rem;
+}
+.news .subcontainer h3 {
+  font-weight: bolder;
+}
+.news .subcontainer .number {
+  color: white;
+  background-color: darkblue;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+.news p {
+  color: gray;
+}
+
+.comment-section {
+  margin-left: 1rem;
+}
+
+.comment {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  background-color: azure;
+  border-radius: 1rem;
+}
+.comment > figure img {
+  width: 3rem;
+}
+.comment .text-comment {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  font-size: 11px;
+}
+.comment p {
+  color: gray;
+}
+.comment b {
+  color: black;
+}
+.comment s {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.comment h3 {
+  color: red;
+  font-size: 1rem;
+}
+.comment #chess img {
+  width: 3rem;
+}
+
+.time {
+  color: gray;
+  font-size: x-small;
+}
+
+.comment-image img {
+  width: 2rem;
+}
+
+.main-comment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main-comment2 {
+  display: flex;
+  gap: 10rem;
+}
+.main-comment2 p {
+  align-self: flex-end;
+}
+
+.message {
+  padding-left: 7rem;
+  width: 30rem;
+}
+.message p {
+  text-align: justify;
+  font-size: small;
+}/*# sourceMappingURL=app.css.map */

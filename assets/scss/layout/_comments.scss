@@ -1,0 +1,80 @@
+@use '../utils/variables' as v;
+
+
+.comment-section{
+    margin-left: 1rem;
+}
+
+.comment{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    background-color:azure;
+    border-radius: 1rem;
+    
+    >figure{
+        img{
+            width: 3rem;
+        }
+    }
+    .text-comment{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        font-size: 11px;
+    }
+    p{
+        color: v.$theme-coment-color;
+    }
+    b{
+        color: black;
+    }
+    s{
+        color:darkblue;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    h3{
+        color: red;
+        font-size: 1rem;
+    }
+    #chess{
+        img{
+            width: 3rem;
+        }
+    }
+}
+.time{
+    color: v.$theme-coment-color;
+    font-size: x-small;
+}
+
+.comment-image{
+    img{
+        width: 2rem;
+    }
+}
+
+.main-comment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main-comment2{
+    display: flex;
+    gap: 10rem;
+    p{
+        align-self: flex-end;
+    }
+}
+
+.message{
+    padding-left: 7rem;
+    width: 30rem;
+    p{
+    text-align: justify;
+    font-size: small;
+    }
+}
